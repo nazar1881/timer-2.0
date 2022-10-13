@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: lightblue;
+}
+
+.timer {  
+  color: blue;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  width: 100px;
+  height: 60px;
+  padding: 5px;
+
+  color: blueviolet;
+  background-color: tan;
+
+  cursor: pointer;
+  
+  transition: all 0.2s;
+
+  font-size: 24px;
+
+  border-radius: 5px;
+  border: 0;
+}
+
+.buttons button:hover {
+  color: tan;
+  background-color: blueviolet;
+}
